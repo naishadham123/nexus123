@@ -19,14 +19,12 @@
 		<repository>
 			<id>ter</id>
 			<url>http://localhost:8081/nexus/content/repositories/ter/</url>
-			<enabled>true</enabled>
-            <updatePolicy>daily</updatePolicy>
+			
 		</repository>
 		<snapshotRepository>
 			<id>tes</id>
 			<url>http://localhost:8081/nexus/content/repositories/tes/</url>
-			<enabled>true</enabled>
-            <updatePolicy>always</updatePolicy>
+			
 		</snapshotRepository>		
   </distributionManagement>
 </project>
